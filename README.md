@@ -3,3 +3,6 @@
 
 ## Bubble sort demo
 ![picture](./images/bubble_sort.gif)
+
+## insertion sort demo
+![picture](./images/insertion_sort.gif)
