@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e750ab8-be6e-49e8-9fe3-882a9755c535" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Sort/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/quick_sort.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Sort/ShellSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/ShellSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,11 +23,15 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1ezU4YNMgxNmyAlG8oZuwqzZHHQ" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -37,6 +43,20 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager">
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.QuickSort" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -50,7 +70,7 @@
       <updated>1595323723942</updated>
       <workItem from="1595323727033" duration="1325000" />
       <workItem from="1595325075062" duration="1143000" />
-      <workItem from="1595326226145" duration="8410000" />
+      <workItem from="1595326226145" duration="12923000" />
     </task>
     <task id="LOCAL-00001" summary="Create the idea document">
       <created>1595323888582</created>
@@ -101,13 +121,21 @@
       <option name="project" value="LOCAL" />
       <updated>1595467736206</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Create the idea document">
+      <created>1595480092830</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1595480092830</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Create the idea document" />
     <option name="LAST_COMMIT_MESSAGE" value="Create the idea document" />
   </component>
@@ -116,18 +144,50 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1595324299611" />
-    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1595467735483">
+    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1595480092056">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595467735483" />
+    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595480092056" />
+    <state width="892" height="244" key="GridCell.Tab.0.bottom" timestamp="1595488839064">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
+    <state width="892" height="244" key="GridCell.Tab.0.center" timestamp="1595488839064">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="244" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
+    <state width="892" height="244" key="GridCell.Tab.0.left" timestamp="1595488839064">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="244" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
+    <state width="892" height="244" key="GridCell.Tab.0.right" timestamp="1595488839064">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="244" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
+    <state width="892" height="302" key="GridCell.Tab.1.bottom" timestamp="1595488783978">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
+    <state width="892" height="302" key="GridCell.Tab.1.center" timestamp="1595488783978">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="302" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
+    <state width="892" height="302" key="GridCell.Tab.1.left" timestamp="1595488783978">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="302" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
+    <state width="892" height="302" key="GridCell.Tab.1.right" timestamp="1595488783978">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="892" height="302" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1595324320234">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1595324320234" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595467740197">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595480099740">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595467740197" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595480099740" />
     <state x="754" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595464804215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

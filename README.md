@@ -9,3 +9,6 @@
 
 ## shell sort demo
 ![picture](./images/shell_sort.gif)
+
+## quick sort demo
+![picture](./images/quick_sort.gif)
