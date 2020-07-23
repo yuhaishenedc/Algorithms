@@ -6,3 +6,6 @@
 
 ## insertion sort demo
 ![picture](./images/insertion_sort.gif)
+
+## shell sort demo
+![picture](./images/shell_sort.gif)
