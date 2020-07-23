@@ -12,3 +12,6 @@
 
 ## quick sort demo
 ![picture](./images/quick_sort.gif)
+
+## merget sort demo
+![picture](./images/merge_sort.gif)
