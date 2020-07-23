@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e750ab8-be6e-49e8-9fe3-882a9755c535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/select_sort.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Algorithms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Algorithms.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Sort/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/Sort/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,7 @@
       <updated>1595323723942</updated>
       <workItem from="1595323727033" duration="1325000" />
       <workItem from="1595325075062" duration="1143000" />
-      <workItem from="1595326226145" duration="1155000" />
+      <workItem from="1595326226145" duration="4126000" />
     </task>
     <task id="LOCAL-00001" summary="Create the idea document">
       <created>1595323888582</created>
@@ -62,7 +60,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595323888583</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create the idea document">
+      <created>1595327594775</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595327594775</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -77,18 +82,18 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1595324299611" />
-    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1595323886939">
+    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1595327593108">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595323886939" />
+    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595327593108" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1595324320234">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1595324320234" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595324024253">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595327599101">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595324024253" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595327599101" />
     <state x="754" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595323844015">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

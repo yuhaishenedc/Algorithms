@@ -22,13 +22,12 @@ public class SelectionSort {
     }
 
 
-
     //Average-case complexity: O(N^2)
     //Best-case complexity:O(N^2)
     //Worst-case complexity:O(N^2)
     //Space-complexity:O(1)
-    //In-place algorithm
     //unstable sort
+
 
     //The total numbe of comparisons N=(n-1)+(n-2)+...+1=n*(n-1)/2
     //The number of exchange is O(n)
