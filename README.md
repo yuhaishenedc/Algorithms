@@ -18,3 +18,6 @@
 
 ## heap sort demo
 ![picture](./images/heap_sort.gif)
+
+## counting sort demo
+![picture](./images/counting_sort.gif)
