@@ -15,3 +15,6 @@
 
 ## merget sort demo
 ![picture](./images/merge_sort.gif)
+
+## heap sort demo
+![picture](./images/heap_sort.gif)

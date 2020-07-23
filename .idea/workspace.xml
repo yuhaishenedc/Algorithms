@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6e750ab8-be6e-49e8-9fe3-882a9755c535" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Sort/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Sort/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/heap_sort.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +44,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.HeapSort">
+    <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HeapSort" />
+      <module name="Algorithms" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuickSort" />
       <module name="Algorithms" />
@@ -52,6 +61,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HeapSort" />
         <item itemvalue="Application.QuickSort" />
       </list>
     </recent_temporary>
@@ -68,7 +78,7 @@
       <updated>1595323723942</updated>
       <workItem from="1595323727033" duration="1325000" />
       <workItem from="1595325075062" duration="1143000" />
-      <workItem from="1595326226145" duration="17053000" />
+      <workItem from="1595326226145" duration="22719000" />
     </task>
     <task id="LOCAL-00001" summary="Create the idea document">
       <created>1595323888582</created>
@@ -133,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595489459570</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Create the idea document">
+      <created>1595494654934</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1595494654934</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,53 +166,64 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="#Project_Structure/0.0.1920.1080@0.0.1920.1080" timestamp="1595324299611" />
-    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1595489458869">
+    <state x="558" y="106" key="CommitChangelistDialog2" timestamp="1595494654201">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595489458869" />
-    <state width="892" height="244" key="GridCell.Tab.0.bottom" timestamp="1595488839064">
+    <state x="558" y="106" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1595494654201" />
+    <state width="1875" height="302" key="GridCell.Tab.0.bottom" timestamp="1595500387701">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="244" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
-    <state width="892" height="244" key="GridCell.Tab.0.center" timestamp="1595488839064">
+    <state width="1875" height="302" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387701" />
+    <state width="1875" height="302" key="GridCell.Tab.0.center" timestamp="1595500387700">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="244" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
-    <state width="892" height="244" key="GridCell.Tab.0.left" timestamp="1595488839064">
+    <state width="1875" height="302" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387700" />
+    <state width="1875" height="302" key="GridCell.Tab.0.left" timestamp="1595500387700">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="244" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
-    <state width="892" height="244" key="GridCell.Tab.0.right" timestamp="1595488839064">
+    <state width="1875" height="302" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387700" />
+    <state width="1875" height="302" key="GridCell.Tab.0.right" timestamp="1595500387700">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="244" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595488839064" />
-    <state width="892" height="302" key="GridCell.Tab.1.bottom" timestamp="1595488783978">
+    <state width="1875" height="302" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387700" />
+    <state width="1875" height="302" key="GridCell.Tab.1.bottom" timestamp="1595500387925">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
-    <state width="892" height="302" key="GridCell.Tab.1.center" timestamp="1595488783978">
+    <state width="1875" height="302" key="GridCell.Tab.1.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387925" />
+    <state width="1875" height="302" key="GridCell.Tab.1.center" timestamp="1595500387925">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="302" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
-    <state width="892" height="302" key="GridCell.Tab.1.left" timestamp="1595488783978">
+    <state width="1875" height="302" key="GridCell.Tab.1.center/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387925" />
+    <state width="1875" height="302" key="GridCell.Tab.1.left" timestamp="1595500387925">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="302" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
-    <state width="892" height="302" key="GridCell.Tab.1.right" timestamp="1595488783978">
+    <state width="1875" height="302" key="GridCell.Tab.1.left/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387925" />
+    <state width="1875" height="302" key="GridCell.Tab.1.right" timestamp="1595500387925">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="892" height="302" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595488783978" />
+    <state width="1875" height="302" key="GridCell.Tab.1.right/0.0.1920.1080@0.0.1920.1080" timestamp="1595500387925" />
     <state x="440" y="114" key="SettingsEditor" timestamp="1595324320234">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="440" y="114" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1595324320234" />
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595489480226">
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2" timestamp="1595494661037">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595489480226" />
+    <state x="552" y="272" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595494661037" />
     <state x="754" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595464804215">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="754" y="452" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1595464804215" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/Sort/HeapSort.java</url>
+          <line>3</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
