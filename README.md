@@ -21,3 +21,6 @@
 
 ## counting sort demo
 ![picture](./images/counting_sort.gif)
+
+## bucket sort demo
+![picture](./images/bucket_sort.gif)
