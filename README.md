@@ -24,3 +24,6 @@
 
 ## bucket sort demo
 ![picture](./images/bucket_sort.gif)
+
+## radix sort demo
+![picture](./images/radix_sort_msd.gif)
